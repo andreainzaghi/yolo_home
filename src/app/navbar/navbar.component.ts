@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
 
+  toggleMenu() {
+    // Implementa qui la logica per aprire/chiudere il menu hamburger
+    console.log('Menu toggled');
+  }
 }

@@ -1,0 +1,55 @@
+
+$main-color: #4A90E2;
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:$main-color;
+    padding: 10px 20px;
+}
+
+.menu-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hamburger-menu {
+    display: block; // Nascondo il menu hamburger su desktop
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    color:#fff;
+    cursor: pointer;
+}
+
+.btn {
+    padding: 8px 15px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    color:#4A90E2;
+    border-radius:50px;
+    transition: background-color 0.2s;
+
+    &:hover {
+        background-color: #ddd;
+    }
+}
+
+.navbar-img {
+    height: 40px;
+    width: auto;
+}
+
+// Stili per smartphone
+@media (max-width: 768px) {
+    .hamburger-menu {
+        display: block; // Mostro il menu hamburger su smartphone
+    }
+
+    .btn {
+        display: none; // Nascondo il bottone su smartphone
+    }
+}

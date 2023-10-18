@@ -1,12 +1,12 @@
 .hero-container {
     display: flex;
     gap: 20px; // Distanza tra i due div
-    width: 90%;
-    margin: 0 auto;
+    margin: 2rem auto;
+    width:96%;
+
     align-items: stretch; // Assicura che i div figli abbiano la stessa altezza
 
     .left-section, .right-section {
-        flex: 1;
         display: flex;
         flex-direction: column;
         margin: 1rem;
@@ -23,11 +23,17 @@
             font-size: 1rem !important;
         }
     }
-    
 
     .left-section {
-        justify-content: space-between; // Distribuisce omogeneamente i contenuti in colonna
+        flex: 6; // 60%
     }
+
+    .right-section {
+        flex: 4; // 40%
+    }
+
+
+
 
     .img_hero_one {
         width: 100%;
@@ -46,9 +52,9 @@
             display: flex;
             flex-direction: column;
             gap: 1rem;
-            border-radius: 2rem;
+            border-radius: 1rem;
             padding:2rem 1rem;
-            margin:0 auto;
+            margin:0 auto 0 auto;
             width:300px;
             align-items: center;
             background-color: #fff;
@@ -68,6 +74,8 @@
 
      
     }
+
+  
   
     button {
         padding: 10px 20px;
@@ -81,6 +89,27 @@
 
         &:hover {
             background-color: darken(#4A90E2, 10%);
+        }
+    }
+}
+
+
+/* ... Il tuo stile attuale ... */
+
+/* Media query per schermi di larghezza massima di 768px */
+@media (max-width: 768px) {
+    .hero-container {
+        flex-direction: column;
+
+        .left-section, .right-section {
+            width: 100%; // Usa l'intera larghezza disponibile
+            margin: 0 auto; // Centra orizzontalmente
+            padding: 1rem; // Riduci il padding per gli schermi più piccoli
+        }
+
+        .right-section .content {
+            width: 86%; // Riduci la larghezza del contenuto
+            margin: 1rem auto; // Aggiusta i margini per centrarlo
         }
     }
 }

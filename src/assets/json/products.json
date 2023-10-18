@@ -1,0 +1,75 @@
+[
+    {
+      "id": "1",
+      "code": "P001",
+      "name": "   Name",
+      "description": "This is    Lorem ipsum dolor, sit amet consectetur adipisicing elit.  facere.This is    Lorem ipsum dolor, sit amet consectetur adipisicing elit.  facere.",
+      "image": "gift_house.gif",
+      "price": 100,
+      "category": "Electronics",
+      "quantity": 10,
+      "inventoryStatus": "INSTOCK",
+      "rating": 4
+    },
+    {
+      "id": "2",
+      "code": "P002",
+      "name": "   Name",
+      "description": "This is    Lorem ipsum dolor, sit amet consectetur adipisicing elit.  facere.This is    Lorem ipsum dolor, sit amet consectetur adipisicing elit.  facere.",
+      "image": "fire.gif",
+      "price": 150,
+      "category": "Fashion",
+      "quantity": 5,
+      "inventoryStatus": "LOWSTOCK",
+      "rating": 5
+    },
+    {
+      "id": "3",
+      "code": "P003",
+      "name": "   Name",
+      "description": "This is    Lorem ipsum dolor, sit amet consectetur adipisicing elit.  facere.This is    Lorem ipsum dolor, sit amet consectetur adipisicing elit.  facere.",
+      "image": "gift_house.gif",
+      "price": 75,
+      "category": "Books",
+      "quantity": 0,
+      "inventoryStatus": "OUTOFSTOCK",
+      "rating": 3
+    },
+    {
+      "id": "4",
+      "code": "P001",
+      "name": "   Name",
+      "description": "This is    Lorem ipsum dolor, sit amet consectetur adipisicing elit.  facere.This is    Lorem ipsum dolor, sit amet consectetur adipisicing elit.  facere.",
+      "image": "head.gif",
+      "price": 100,
+      "category": "Electronics",
+      "quantity": 10,
+      "inventoryStatus": "INSTOCK",
+      "rating": 4
+    },
+    {
+      "id": "5",
+      "code": "P002",
+      "name": "   Name",
+      "description": "This is    Lorem ipsum dolor, sit amet consectetur adipisicing elit.  facere.This is    Lorem ipsum dolor, sit amet consectetur adipisicing elit.  facere.",
+      "image": "gift_house.gif",
+      "price": 150,
+      "category": "Fashion",
+      "quantity": 5,
+      "inventoryStatus": "LOWSTOCK",
+      "rating": 5
+    },
+    {
+      "id": "6",
+      "code": "P003",
+      "name": "   Name",
+      "description": "This is    Lorem ipsum dolor, sit amet consectetur adipisicing elit.  facere.This is    Lorem ipsum dolor, sit amet consectetur adipisicing elit.  facere.",
+      "image": "ruby.gif",
+      "price": 75,
+      "category": "Books",
+      "quantity": 0,
+      "inventoryStatus": "OUTOFSTOCK",
+      "rating": 3
+    }
+  ]
+  

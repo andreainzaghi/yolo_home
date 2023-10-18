@@ -1,0 +1,158 @@
+$main-color: #4A90E2;
+.note{
+  color:#ffffff;
+  font-size:0.85rem;
+  font-weight:300;
+  text-align:start;
+  margin:0 auto;
+  padding:0 5rem 2rem 5rem;
+  display: flex;
+flex-direction: column;
+align-items: center;
+gap: 0.66667rem;
+align-self: stretch;
+
+
+  div{
+    display: flex;
+width: 18.66667rem;
+height: 3.2rem;
+padding: 0.26667rem 1.06667rem;
+justify-content: center;
+align-items: center;
+gap: 0.8rem;
+border-radius: 1.6rem;
+
+background: var(--newprimary-white, #FFF);
+    p{
+      color: var(--newprimary-dark-blue, #364B69);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Quicksand;
+font-size: 0.8rem;
+font-style: normal;
+font-weight: 700;
+line-height: 0.93333rem; /* 116.667% */
+letter-spacing: 0.01667rem;
+    }
+
+    img{
+      width: 5.86667rem;
+      height: 2rem;    }
+  }
+}
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    margin:0 auto;
+
+    width:96%;
+.e_se_ti_succedesse{
+  padding:0 3rem;
+  color:#fff;
+}
+    &:hover {
+        transform: translateY(-5px);
+    }
+
+    img {
+        width: 100%;
+        max-height: 90px;
+        object-fit: cover;
+    }
+
+    h4 {
+        color: $main-color;
+        margin-bottom: 5px;
+    }
+
+    h6 {
+        margin-bottom: 10px;
+    }
+
+    p-tag {
+        margin-bottom: 10px;
+    }
+    .btn_full{
+      width:100%;
+      color:#4A90E2;
+      background-color: #4a91e23c;
+      padding: 1px 1rem;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      border-radius:1rem;
+      margin-top:1rem
+    }
+.ng_tt{
+  display: flex;
+width: 85rem;
+align-items: flex-start;
+gap: 3.2rem;
+}
+    .ng_template{
+ 
+            gap: 1rem;
+            border-radius: 1rem;
+            margin:0 auto;
+            width:80%;
+            align-items: center;
+            background-color: #fff;
+            color:black !important;
+            display: flex;
+            width: 21rem;
+            padding: 1.6rem;
+            flex-direction: column;
+            align-items: center;
+           
+
+
+            p{
+              color:black !important;
+              padding:0px;
+              margin:0;
+              
+          }
+
+         
+
+          h1{
+              color:#4A90E2;
+              font-size:1.2rem;
+          }
+    }
+    .p_products_descr{
+      text-align: center;
+      line-height: 1.6rem;
+      font-weight:700;
+    }
+    .car-buttons {
+        button {
+            background-color: $main-color;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+
+            &:hover {
+                background-color: darken($main-color, 10%);
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+  .card{
+      width:100%;
+  }
+
+  .ng_template{
+    width:100% !important;
+  }
+
+  .note{
+    padding:0 2.5rem 2rem 2.5rem;
+  }
+}

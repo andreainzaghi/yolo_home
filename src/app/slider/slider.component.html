@@ -1,0 +1,41 @@
+<div class="card">
+    <h1 class="e_se_ti_succedesse"><b style="color:#ffffff90;">E se</b> ti succedesse che...</h1>
+
+    <p-carousel *ngIf="products" 
+    #carousel 
+    [value]="products" 
+    [numVisible]="3.5" 
+    [numScroll]="3.5" 
+    [circular]="true" 
+    [autoplayInterval]="3000"
+    [responsiveOptions]="responsiveOptions" 
+   >
+            <ng-template let-product pTemplate="item" class="ng_tt">
+            <div class="ng_template">
+                <h4 class="mb-1" style="align-items: start;width:90%;margin:1rem auto 0 auto;">{{ product.name }}</h4>
+                <div class="mb-3">
+                    <img src="../../assets/img/{{product.image }}" [alt]="product.name" class="w-1 shadow-2" />
+                </div>
+                <div>
+                    <p class="p_products_descr">{{product.description}}</p>
+                   
+                    <div class="car-buttons mt-5">
+                                      
+                        <div class="btn_full">
+                            <h2 class="full">{{ '$' + product.price + '.000' }}</h2>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </ng-template>
+    </p-carousel>
+</div>
+<div class="note">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium esse sunt, pariatur numquam hic ipsum, praesentium atque a cum minus evuscipit officiis.lorem Lorem  porro facere vitae, deserunt iure ab possimus, laudantium quo fugit accusantium omnis. Aliquid?</p>
+
+    <div>
+        <p>prodotto offerto in collaborazione con </p>
+        <img src="../../assets/img/net_insurance.png" alt="">
+    </div>
+</div>

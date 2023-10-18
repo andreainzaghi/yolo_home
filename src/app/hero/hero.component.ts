@@ -11,8 +11,8 @@ export class HeroComponent {
     leftSection: {
       imageSrc: '../../assets/img/hero_home.png',
       paragraphs: [
-        ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste consequatur vel sint dolorum perferendis quis sit modi dolor reprehenderit voluptas totam debitis illum ullam molestiae tempore voluptates, molestias ea nobis!',
-        ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste consequatur vel sint dolorum perferendis quis sit modi dolor reprehenderit voluptas totam debitis illum ullam molestiae tempore voluptates, molestias ea nobis!'
+        ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste consequatur vel sint dolorumsit amet consectetur adipisicing elit. Iste consequatur vel sint dolorum perferendis quis sit modi dolor reprehenderit voluptas totam debitis illum ullam molestiae tempore voluptates, molestias ea nobis!',
+        ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste consequatur vel sint dolorumsit amet consectetur adipisicing elit. Iste consequatur vel sint dolorum perferendis quis sit modi dolor reprehenderit voluptas totam debitis illum ullam molestiae tempore voluptates, molestias ea nobis!'
       ]
     },
     rightSection: {

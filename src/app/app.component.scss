@@ -1,4 +1,11 @@
 .container_first{
-    background-color:#4A90E2;
+width:90%;
+margin:0 auto;
+max-width: 1550px;
+}
 
+@media screen and (max-width: 768px) {
+    .container_first{
+        width:100%;
+    }
 }

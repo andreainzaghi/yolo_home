@@ -1,0 +1,18 @@
+<div class="hero-container">
+    <div class="left-section">
+        <img [src]="data.leftSection.imageSrc" alt="Immagine 1" class="img_hero_one">
+        <p *ngFor="let paragraph of data.leftSection.paragraphs">{{ paragraph }}</p>
+    </div>
+    <div class="right-section">
+        <div class="content">
+            <img [src]="data.rightSection.imageSrc" alt="Immagine 2">
+            <h1>{{ data.rightSection.title }}</h1>
+           <div class="p_p">
+            <p *ngFor="let detail of data.rightSection.details" class="detail_p">{{ detail }}</p>
+           </div>
+            <h1>{{ data.rightSection.price }}</h1>
+            <button>Fai un preventivo</button>
+
+        </div>
+    </div>
+</div>

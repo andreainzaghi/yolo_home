@@ -7,6 +7,8 @@ $main-color: #4A90E2;
     align-items: center;
     background-color:$main-color;
     padding: 10px 20px;
+    width:90%;
+    margin:0 auto;
 }
 
 .menu-container {
@@ -25,7 +27,7 @@ $main-color: #4A90E2;
 }
 
 .btn {
-    padding: 8px 15px;
+    padding: 8px 2.5rem;
     border: none;
     background-color: white;
     cursor: pointer;

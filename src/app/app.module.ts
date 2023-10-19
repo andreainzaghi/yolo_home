@@ -10,13 +10,15 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HeroComponent } from './hero/hero.component';
 import { SliderComponent } from './slider/slider.component';
+import { CopertureYoloHomeComponent } from './coperture-yolo-home/coperture-yolo-home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HeroComponent,
-    SliderComponent
+    SliderComponent,
+    CopertureYoloHomeComponent,
     
   ],
   imports: [

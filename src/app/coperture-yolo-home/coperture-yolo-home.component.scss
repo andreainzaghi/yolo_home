@@ -1,0 +1,87 @@
+.coverage-container {
+    padding: 2rem;
+    border-radius: 15px;
+    width: 100%; // O la larghezza che preferisci
+    margin: 0 auto;
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h1 {
+            color: #2A2A2A;
+            font-size: 1.5rem;
+        }
+
+        button {
+            background-color: rgba(74, 145, 226, 0);
+            color: #494949;
+            border: none;
+            border-radius: 20px;
+            display:flex;
+            align-items:center;
+            padding: 0.5rem 1rem;
+        }
+    }
+    .flex-flex {
+        display: flex; 
+        gap: 2rem; // Distanza tra le card
+        flex-wrap: wrap; // Permette alle card di andare a capo se non c'è spazio sufficiente
+        justify-content: start; // Allinea le card in modo che ci sia lo stesso spazio tra di loro
+    }
+    
+    p {
+        color: #2A2A2A;
+        margin: 1rem 0;
+    }
+
+   
+    .coverage-section {
+        margin-top: 2rem;
+
+        .coverage-item {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            gap: 1rem;
+            margin-top: 1.5rem;
+            background-color: #e7f3ff;
+            padding: 1rem 2rem;
+            width:31%;
+            border-radius: 15px;
+            box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+
+.function_new{
+    display:flex;
+}
+            img {
+                width: 50px; // o la dimensione desiderata
+                height: auto;
+            }
+
+            p:first-of-type {
+                font-weight: 700;
+            }
+
+            p {
+                flex: 1;
+                margin: 0;
+                color: #555;
+            }
+
+            button {
+                color: rgb(35, 40, 69);
+                border: none;
+                background-color: #2a2a2a00;
+                border-radius: 15px;
+                padding: 0.5rem 1rem;
+                cursor: pointer;
+                transition: background-color 0.3s;
+
+             
+            }
+        }
+    }
+}

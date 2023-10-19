@@ -1,11 +1,11 @@
-.container_first{
+.container_first, .container_second{
 width:90%;
 margin:0 auto;
 max-width: 1550px;
 }
 
 @media screen and (max-width: 768px) {
-    .container_first{
+    .container_first, .container_second{
         width:100%;
     }
 }

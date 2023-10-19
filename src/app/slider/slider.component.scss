@@ -9,8 +9,6 @@ $main-color: #4A90E2;
   display: flex;
 flex-direction: column;
 align-items: center;
-gap: 0.66667rem;
-align-self: stretch;
 
 
   div{
@@ -26,13 +24,10 @@ border-radius: 1.6rem;
 background: var(--newprimary-white, #FFF);
     p{
       color: var(--newprimary-dark-blue, #364B69);
-font-feature-settings: 'clig' off, 'liga' off;
-font-family: Quicksand;
 font-size: 0.8rem;
 font-style: normal;
 font-weight: 700;
-line-height: 0.93333rem; /* 116.667% */
-letter-spacing: 0.01667rem;
+
     }
 
     img{
@@ -86,7 +81,6 @@ letter-spacing: 0.01667rem;
     }
 .ng_tt{
   display: flex;
-width: 85rem;
 align-items: flex-start;
 gap: 3.2rem;
 }
@@ -100,11 +94,8 @@ gap: 3.2rem;
             background-color: #fff;
             color:black !important;
             display: flex;
-            width: 21rem;
             padding: 1.6rem;
             flex-direction: column;
-            align-items: center;
-           
 
 
             p{

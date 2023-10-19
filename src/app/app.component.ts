@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ProductService } from '../app/services/productservice';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'yolo_home';
+  data_card_first :ProductService[] = [];
 }
